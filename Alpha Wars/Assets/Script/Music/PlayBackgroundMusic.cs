@@ -14,5 +14,14 @@ public class PlayBackgroundMusic : MonoBehaviour
 
         _audioSource.clip = BGMusicList[Random.Range(0, BGMusicList.Count)];
         _audioSource.Play();
+        StartCoroutine(ChangeMusic());
+    }
+
+    IEnumerator ChangeMusic()
+    {
+        yield return new WaitForSeconds(_audioSource.clip.length);
+        _audioSource.clip = BGMusicList[Random.Range(0, BGMusicList.Count)];
+        _audioSource.Play();
+        StartCoroutine(ChangeMusic());
     }
 }
