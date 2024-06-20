@@ -1,0 +1,74 @@
+{
+    "name": "ActionMap",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "09fd4617-35c1-42b5-aa25-49a2a394db16",
+            "actions": [
+                {
+                    "name": "CameraControl",
+                    "type": "Button",
+                    "id": "ccd817c9-2da5-4671-a579-80aab2a568c8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ZoomP",
+                    "type": "Value",
+                    "id": "b2c576c0-137d-4514-861f-86a9d4ed286b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ZoomM",
+                    "type": "Value",
+                    "id": "00e7ddb4-7e69-47d4-83d7-9bd2953cbbf0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "90fb3ebc-0e9a-4460-9058-79332f4300c2",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cef66db4-5223-4108-bd0e-cef977a9ecfd",
+                    "path": "<Mouse>/scroll/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZoomP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7578698e-1ad6-4bcb-aacc-d2fcaf71ef35",
+                    "path": "<Mouse>/scroll/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZoomM",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
