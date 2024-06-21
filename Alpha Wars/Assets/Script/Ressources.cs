@@ -7,40 +7,24 @@ using UnityEngine;
 public class Ressources : MonoBehaviour
 {
     public static Ressources instance;
-    public int Charbon;
-    public int Carburant;
+
     public int Beton;
-    public int Acier;
-    public TextMeshProUGUI CharbonTxt;
-    public TextMeshProUGUI CarburantTxt;
     public TextMeshProUGUI BetonTxt;
+    public int Acier;
     public TextMeshProUGUI AcierTxt;
+    public int Charbon;
+    public TextMeshProUGUI CharbonTxt;
+    public int Carburant;
+    public TextMeshProUGUI CarburantTxt;
 
     private void Awake()
     {
         instance = this;
     }
+
     public void EditRessource(int identifiant, int _profit)
     {
         if (identifiant == 0)
-        {
-            Charbon += _profit;
-            if (Charbon <= 0)
-            {
-                Charbon = 0;
-            }
-            CharbonTxt.text = Charbon.ToString();
-        }
-        else if (identifiant == 1)
-        {
-            Carburant += _profit;
-            if (Carburant <= 0)
-            {
-                Carburant = 0;
-            }
-            CarburantTxt.text = Carburant.ToString();
-        }
-        else if (identifiant == 2)
         {
             Beton += _profit;
             if (Beton <= 0)
@@ -49,7 +33,7 @@ public class Ressources : MonoBehaviour
             }
             BetonTxt.text = Beton.ToString();
         }
-        else if (identifiant == 3)
+        else if (identifiant == 1)
         {
             Acier += _profit;
             if (Acier <= 0)
@@ -57,6 +41,24 @@ public class Ressources : MonoBehaviour
                 Acier = 0;
             }
             AcierTxt.text = Acier.ToString();
+        }
+        else if (identifiant == 2)
+        {
+            Charbon += _profit;
+            if (Charbon <= 0)
+            {
+                Charbon = 0;
+            }
+            CharbonTxt.text = Charbon.ToString();
+        }
+        else if (identifiant == 3)
+        {
+            Carburant += _profit;
+            if (Carburant <= 0)
+            {
+                Carburant = 0;
+            }
+            CarburantTxt.text = Carburant.ToString();
         }
     }
     // Start is called before the first frame update
