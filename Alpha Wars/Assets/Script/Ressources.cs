@@ -61,7 +61,7 @@ public class Ressources : MonoBehaviour
             CarburantTxt.text = Carburant.ToString();
         }
     }
-    // Start is called before the first frame update
+
     void Start()
     {
         EditRessource(0, 50);
