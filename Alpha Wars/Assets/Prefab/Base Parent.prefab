@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7700758181028110037}
   - component: {fileID: 710817256604067362}
   - component: {fileID: 9145839343049805522}
+  - component: {fileID: 5021348359865304939}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -120,18 +121,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 5021348359865304939}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCarburant
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 50
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5021348359865304939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338455208133576136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1105374350325574899
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +277,7 @@ GameObject:
   - component: {fileID: 3047220569691256561}
   - component: {fileID: 3955855054786137263}
   - component: {fileID: 9109998514369745955}
+  - component: {fileID: 3823693917273306749}
   m_Layer: 0
   m_Name: Image (2)
   m_TagString: Untagged
@@ -372,18 +386,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 3823693917273306749}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineAcier
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 150
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3823693917273306749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516828032085979925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1716265936013360567
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +422,7 @@ GameObject:
   - component: {fileID: 187149368773011194}
   - component: {fileID: 4371246225358736563}
   - component: {fileID: 9007747753125071671}
+  - component: {fileID: 7630330716941251339}
   m_Layer: 0
   m_Name: Image (1)
   m_TagString: Untagged
@@ -504,18 +531,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 7630330716941251339}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCarburant
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 100
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7630330716941251339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716265936013360567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1813004095396477029
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +687,7 @@ GameObject:
   - component: {fileID: 2623258685861790362}
   - component: {fileID: 4826254324626267547}
   - component: {fileID: 5659670360947376044}
+  - component: {fileID: 6149064255640651612}
   m_Layer: 0
   m_Name: Image (2)
   m_TagString: Untagged
@@ -756,18 +796,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 6149064255640651612}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineBeton
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 150
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6149064255640651612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113899061437265408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2334547647056464935
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +832,7 @@ GameObject:
   - component: {fileID: 2213414316079357970}
   - component: {fileID: 6490747535727697191}
   - component: {fileID: 3051795201983098616}
+  - component: {fileID: 5565219329309712634}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -888,18 +941,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 5565219329309712634}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCharbon
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 50
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5565219329309712634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2334547647056464935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2418434685747534144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1244,7 @@ GameObject:
   - component: {fileID: 8078515491429773853}
   - component: {fileID: 6810087354985541987}
   - component: {fileID: 2772876983345486756}
+  - component: {fileID: 4291845979981210094}
   m_Layer: 0
   m_Name: Image (3)
   m_TagString: Untagged
@@ -1287,18 +1353,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 4291845979981210094}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineAcier
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 200
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4291845979981210094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926328447754796474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3107401712269503807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1389,7 @@ GameObject:
   - component: {fileID: 6312419552977178042}
   - component: {fileID: 6951218843645079}
   - component: {fileID: 5130470418171527272}
+  - component: {fileID: 2056868145843016335}
   m_Layer: 0
   m_Name: Image (3)
   m_TagString: Untagged
@@ -1419,18 +1498,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 2056868145843016335}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineBeton
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 200
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2056868145843016335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3107401712269503807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3203699282289685506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1534,7 @@ GameObject:
   - component: {fileID: 6629851584558970245}
   - component: {fileID: 1355009661338950637}
   - component: {fileID: 5238197135391443588}
+  - component: {fileID: 2365704586655140071}
   m_Layer: 0
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1551,18 +1643,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 2365704586655140071}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCarburant
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 150
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2365704586655140071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203699282289685506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3296868700492087383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1679,7 @@ GameObject:
   - component: {fileID: 7425468782472632778}
   - component: {fileID: 1984539970917266547}
   - component: {fileID: 5340518625420858149}
+  - component: {fileID: 1614818985233755144}
   m_Layer: 0
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1683,18 +1788,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 1614818985233755144}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCharbon
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 150
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1614818985233755144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3296868700492087383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3309414507537307386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,6 +1824,7 @@ GameObject:
   - component: {fileID: 6682353012350013187}
   - component: {fileID: 6557528808497750865}
   - component: {fileID: 9007285674104364141}
+  - component: {fileID: 4824619194870435001}
   m_Layer: 0
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1815,18 +1933,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 4824619194870435001}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCharbon
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 100
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4824619194870435001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309414507537307386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3359006010654742308
 GameObject:
   m_ObjectHideFlags: 0
@@ -2117,6 +2247,7 @@ GameObject:
   - component: {fileID: 4046582279618983270}
   - component: {fileID: 1560258537613202818}
   - component: {fileID: 7939599135440693439}
+  - component: {fileID: 6202476759145540863}
   m_Layer: 0
   m_Name: Image (3)
   m_TagString: Untagged
@@ -2225,18 +2356,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 6202476759145540863}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCharbon
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 200
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6202476759145540863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521204556411610171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4376200186163159209
 GameObject:
   m_ObjectHideFlags: 0
@@ -2636,6 +2779,7 @@ GameObject:
   - component: {fileID: 3429748380464157107}
   - component: {fileID: 2170980378474382318}
   - component: {fileID: 716337341228576128}
+  - component: {fileID: 4320873873903737259}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -2744,18 +2888,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 4320873873903737259}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineBeton
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 50
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4320873873903737259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4875185110505002391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5303143684674718372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +2924,7 @@ GameObject:
   - component: {fileID: 5753718492821013129}
   - component: {fileID: 2791172467900954880}
   - component: {fileID: 5028792138246188276}
+  - component: {fileID: 3823161598091952493}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -2876,18 +3033,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 3823161598091952493}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineAcier
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 50
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3823161598091952493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303143684674718372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5308157955127485809
 GameObject:
   m_ObjectHideFlags: 0
@@ -3485,6 +3654,7 @@ GameObject:
   - component: {fileID: 5959674562259386091}
   - component: {fileID: 7119350492326206580}
   - component: {fileID: 8968670527037978256}
+  - component: {fileID: 5851288999829358046}
   m_Layer: 0
   m_Name: Image (3)
   m_TagString: Untagged
@@ -3593,18 +3763,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 5851288999829358046}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineCarburant
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 200
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5851288999829358046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6373560466012548448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6833367869690179193
 GameObject:
   m_ObjectHideFlags: 0
@@ -3706,6 +3888,7 @@ GameObject:
   - component: {fileID: 2165035244673495602}
   - component: {fileID: 3162216308966939257}
   - component: {fileID: 6242178036024521821}
+  - component: {fileID: 7698530143309305311}
   m_Layer: 0
   m_Name: Image (1)
   m_TagString: Untagged
@@ -3814,18 +3997,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 7698530143309305311}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineAcier
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 100
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7698530143309305311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6960127626863877816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7120126942299300725
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,6 +4271,7 @@ GameObject:
   - component: {fileID: 3406453432362561285}
   - component: {fileID: 5344509018260466513}
   - component: {fileID: 2498353674334647673}
+  - component: {fileID: 5398302567143916628}
   m_Layer: 0
   m_Name: Image (1)
   m_TagString: Untagged
@@ -4184,18 +4380,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
+      - m_Target: {fileID: 5398302567143916628}
+        m_TargetAssemblyTypeName: RessourceClaimer, Assembly-CSharp
+        m_MethodName: RessourceCoroutineBeton
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 100
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5398302567143916628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426912341041987290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9317c68da227ebd4481f7e76f6bcc175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7678809672408067163
 GameObject:
   m_ObjectHideFlags: 0
