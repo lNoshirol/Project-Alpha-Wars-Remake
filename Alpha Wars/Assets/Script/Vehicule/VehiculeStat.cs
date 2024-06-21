@@ -15,4 +15,7 @@ public class VehiculeStat : MonoBehaviour
     [field: SerializeField] public float _antiAirPower { get; private set; }
     [field: SerializeField] public float _antiGroundPower { get; private set; }
     [field: SerializeField] public float _antiBasePower {  get; private set; }
+
+    [field: SerializeField] public int AcierCost { get; private set; }
+    [field: SerializeField] public int CharbonCost { get; private set; }
 }
