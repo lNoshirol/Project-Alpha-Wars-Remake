@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -62,8 +63,31 @@ public class Ressources : MonoBehaviour
         }
     }
 
-    void Start()
+    [Header("tkt ez")]
+    [SerializeField] int rssToAdd;
+
+    [Button("Ajoute rssToAdd de Beton")]
+    public void AddBeton()
     {
-        EditRessource(0, 50);
+        EditRessource(0, rssToAdd);
     }
+
+    [Button("Ajoute rssToAdd d'acier")]
+    public void AddAcier()
+    {
+        EditRessource(1, rssToAdd);
+    }
+
+    [Button("Ajoute rssToAdd de charbon")]
+    public void AddCharbon()
+    {
+        EditRessource(2, rssToAdd);
+    }
+
+    [Button("Ajoute rssToAdd de Carburant")]
+    public void AddCarbu()
+    {
+        EditRessource(3, rssToAdd);
+    }
+
 }
