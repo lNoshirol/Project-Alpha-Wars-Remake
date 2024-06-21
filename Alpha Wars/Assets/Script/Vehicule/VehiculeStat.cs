@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class VehiculeStat : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Move parameter")]
+    [SerializeField] private float _speed;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Def stat")]
+    [SerializeField] private float _armor;
+
+    [Header("Fight stats")]
+    [SerializeField] private float _normalPower;
+    [SerializeField] private float _antiAirPower;
+    [SerializeField] private float _antiGroundPower;
+    [SerializeField] private float _antiBasePower;
 }
