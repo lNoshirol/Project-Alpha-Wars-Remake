@@ -4,6 +4,22 @@ using UnityEngine;
 
 public class RessourceClaimer : MonoBehaviour
 {
+    public void RessourceCoroutineBeton(int countdown)
+    {
+        StartCoroutine(ATTENDBeton(countdown));
+    }
+    public void RessourceCoroutineAcier(int countdown)
+    {
+        StartCoroutine(ATTENDAcier(countdown));
+    }
+    public void RessourceCoroutineCharbon(int countdown)
+    {
+        StartCoroutine(ATTENDCharbon(countdown));
+    }
+    public void RessourceCoroutineCarburant(int countdown)
+    {
+        StartCoroutine(ATTENDCarburant(countdown));
+    }
     public IEnumerator ATTENDBeton(int countdown)
     {
         yield return new WaitForSeconds(countdown);
