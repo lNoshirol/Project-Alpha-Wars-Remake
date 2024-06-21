@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 6085372177282116375}
   - component: {fileID: 7000189656412789285}
   - component: {fileID: 371716994418683971}
+  - component: {fileID: 8650372954677091681}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -359,7 +360,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7000189656412789285}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8650372954677091681}
+        m_TargetAssemblyTypeName: SpawnUnit, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8650372954677091681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2418434685747534144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8980d143480938b489931bec6c7b36f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VehiculePrefab: {fileID: 2995896568262178043, guid: a69eb248cef9081418dcad44eb8aaa70, type: 3}
+  SpawnPoint: {fileID: 5612174048144193695}
 --- !u!1 &2647903786103533422
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +538,7 @@ Transform:
   m_Children:
   - {fileID: 6346191728566195393}
   - {fileID: 8756762637121520226}
+  - {fileID: 6138757240949892077}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3425327613832842902
@@ -968,6 +996,37 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &5612174048144193695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6138757240949892077}
+  m_Layer: 0
+  m_Name: Point de Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6138757240949892077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5612174048144193695}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.2291374, y: 2.8980114, z: 0.5252094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7194492122827928313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5719207076075616660
 GameObject:
   m_ObjectHideFlags: 0
